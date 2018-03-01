@@ -1,0 +1,72 @@
+public static void program(){
+declarationList();
+}
+ 
+public static void declarationList(){
+declaration();
+pPrime();
+}
+ 
+public static void declaration(){
+typeSpecifier();
+//acceptance in this method is type-specifier ID J
+//trying something
+if(token.equalsIgnoreCase("id"){
+//move to the next token here
+}else{
+System.out.println("REJECT");
+}
+ 
+public static void pPrime(){
+declaration();
+pPrime();
+}
+ 
+public static void typeSpecifier(){
+	if(token.equals("int")){
+	//iterate....
+	}
+}
+ 
+public static void X(){
+	if(token.equals("float"){
+		empty();
+}else if(token.equals(")"){
+		empty();
+}else if(token.equals(","){
+		empty();
+}else if(token.equals("["){
+		push([]);
+}
+ 
+public static void X(){
+   typeSpecifier();
+   push("id X");
+}else if(token.equals("void"){
+   typeSpecifier();
+   push("id X");
+}else if(token.equals("float"){
+   push("id X");
+}else{
+   reject();
+}
+public static void W(){
+
+if(token.equals(";"){
+   push(";");
+}else if(token.equals("["){
+   push("[ num ] ;");
+}else{
+   reject();
+}
+public static void F(){
+
+if(token.equals("id"){
+   push("id X sPrime");
+}else if(token.equals(")"){
+   empty();
+}else{
+   reject();
+}
+public static void sPrime(){
+paramList();
